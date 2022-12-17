@@ -1,0 +1,52 @@
+.motel_img_wrapper {
+  position: relative;
+}
+
+.motel_hero_img {
+  z-index: 100;
+}
+
+.love_outline_icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 1.2rem 2.4rem;
+  background-color: #000;
+  border-radius: 14px;
+}
+.motel_details_container {
+  position: absolute;
+  width: 41.4rem;
+  margin-top: -2rem;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  background: #fff;
+  z-index: 200;
+}
+.motel_details_wrapper {
+  padding: 3rem 2.8rem;
+}
+.motal_main_heading_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hotel_review_star > img {
+  height: 1.4rem;
+  width: 1.4rem;
+}
+.hotel_review_person_img {
+  height: 4.2rem;
+  width: 4.1rem;
+  object-fit: cover;
+  border-radius: 50px;
+  margin-left: -1rem;
+}
+.hotel_review_animities_icon {
+  width: 4.4rem;
+  height: 4.4rem;
+  background-color: #000;
+  padding: 0.8rem;
+  border-radius: 10px;
+}

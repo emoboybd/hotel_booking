@@ -1,0 +1,75 @@
+.hotel {
+  color: #fff;
+}
+
+.navigation_bell_img,
+.navigation_item {
+  align-items: center;
+  display: flex;
+}
+
+.navigation_item {
+  font-weight: bold;
+  justify-content: space-between;
+  padding: 3.1rem 1rem 2.5rem 2.8rem;
+}
+.navigation_bell_img {
+  gap: 2.2rem;
+}
+.navigation_logo {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+/* hotel navigation */
+.hotel_navigation {
+  margin-top: 1.5rem;
+  color: #594848c4;
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding: 1.8rem;
+}
+.hotel_navigation_items {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.hotel_navigation_item {
+  position: relative;
+}
+.nav_active::before {
+  content: "";
+  height: 1.2rem;
+  width: 1.2rem;
+  border-radius: 50px;
+  background-color: #000000ed;
+  position: absolute;
+  top: -13px;
+  left: 13px;
+}
+/*  */
+.date_picker_search_btn {
+  display: flex;
+  justify-content: center;
+}
+.date_picker_btn_text {
+  padding: 0.8rem 3.6rem;
+  font-size: 1.9rem;
+  font-weight: 600;
+}
+.date_picker_btn_border {
+  border-radius: 50px !important;
+  margin: 1.4rem 0 1.4rem 0;
+}
+.latest_searches_heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #000000bf;
+}
+.latest_hotel_items {
+  display: flex;
+  gap: 1.2rem;
+  width: 100%;
+}
+.latest_hotel_wrapper {
+  padding: 1.3rem;
+}

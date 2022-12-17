@@ -1,0 +1,28 @@
+.location_card {
+  overflow: hidden;
+}
+.location_card_main_img {
+  width: 40%;
+  height: auto;
+}
+.location_card_review_star {
+  height: 1rem;
+  width: 1rem;
+}
+.location_card_detail_wrapper {
+  padding: 1.3rem 1rem 2rem 1rem;
+}
+.location_card_detail {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.location_card_detail {
+  font-size: 1;
+}
+.location_card_location {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}

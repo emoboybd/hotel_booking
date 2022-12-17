@@ -1,0 +1,35 @@
+.hotel_card {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  color: #000000bf;
+}
+.hotel_card_wrapper {
+  padding: 0.7rem;
+}
+
+.hotel_card_img {
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  width: 100%;
+}
+.hotel_card_title {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.hotel_card_review {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+.hotel_card_review > h3 {
+  font-size: 0.6rem;
+  font-weight: 400;
+}
+.hotel_card_review_star {
+  height: 0.6rem;
+  width: 0.6rem;
+}
+.hotel_card_review_star_wrapper {
+  display: flex;
+}

@@ -1,0 +1,19 @@
+.date_picker_bg_black {
+  background-color: #000000;
+}
+.border_radius_13 {
+  border-radius: 13px;
+}
+.date_picker_Item {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.3rem 4.4rem 1.1rem 1rem;
+}
+.date_picker_item_name {
+  font-size: 1rem;
+  color: #594848c4;
+  font-weight: 400;
+  margin-bottom: 0.2rem;
+  margin-left: 1rem;
+}

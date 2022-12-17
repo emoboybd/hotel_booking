@@ -1,0 +1,40 @@
+.home {
+  background-color: #000000d6;
+}
+.hero_img {
+  margin-top: 12rem;
+  width: 40rem;
+  height: auto;
+  object-fit: contain;
+}
+
+.text_style {
+  text-align: center;
+
+  color: #fff;
+}
+.hero_heading {
+  font-weight: 700;
+  font-size: 3.7rem;
+  line-height: 1.4;
+  margin-bottom: 0.8rem;
+}
+.hero_text {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 10.8rem;
+}
+.hero_btn {
+  padding: 1.6rem 6.6rem;
+  border-radius: 10px;
+  background-color: #1adef4;
+  border: none;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 7.8rem;
+  cursor: pointer;
+}
+.hero_btn_wrapper {
+  display: flex;
+  justify-content: center;
+}

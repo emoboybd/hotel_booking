@@ -1,0 +1,10 @@
+.nav_card {
+  background: linear-gradient(
+    90.23deg,
+    #000000 28.82%,
+    #000000 40.13%,
+    #424242 82.48%
+  );
+  border-bottom-right-radius: 2.3rem;
+  border-bottom-left-radius: 2.3rem;
+}
