@@ -4,7 +4,7 @@ function Deals() {
   return (
     <div className="deals">
       <div className="deals_wrapper">
-        <p>Lorem Ipsum</p>
+        <p>Lorem Ipum</p>
       </div>
     </div>
   );
